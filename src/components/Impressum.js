@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Impressum extends Component {
+export default class Impressum extends Component {
     render() {
         return (
             <div className="Impressum">
@@ -9,5 +9,3 @@ class Impressum extends Component {
         );
     }
 }
-
-export default Impressum;
