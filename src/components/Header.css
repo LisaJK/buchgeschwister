@@ -1,0 +1,19 @@
+.Header {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #94bec1;
+}
+
+.Logo {
+    width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .Header {
+        flex-direction: column;
+    }
+}

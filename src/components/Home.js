@@ -1,15 +1,23 @@
 import React, {Component} from 'react';
 import Book from './Book';
+import HP1 from '../images/51fXQpS-p6L._SX318_BO1,204,203,200_.jpg'
+import * as books from '../content/books.json';
+import './Home.css';
 
 export default class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <h1>Willkommen auf buchgeschwister.de!</h1>
-                <Book title={'Harry Potter und der Stein der Weisen'}
-                      author={'Joan K. Rowling'}
-                      content={'Harry Potter lebt in Hogwarts und seine Freunde sind Ron und Hermine.'}
-                      img={'https://vignette.wikia.nocookie.net/harrypotter/images/c/c8/Limitierte-Taschenbuchausgabe-Harry-Potter-und-der-Stein-der-Weisen_19_E10134_40.jpg/revision/latest?cb=20161031190502'}/>
+                <h1>Herzlich Willkommen!</h1>
+                <p>Weißt du nicht, was du als nächstes lesen sollst?
+                Suchen Sie ein Geschenk für Ihr Kind oder Enkelkind?</p>
+                <p>Wir lieben lesen und hier sind unsere Empfehlungen:</p>
+                <Book title={books.title}
+                      author={books.author}
+                      content={books.content}
+                      img={HP1}
+                      age={books.age}
+                      />
             </div>
         );
     }

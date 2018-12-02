@@ -1,0 +1,24 @@
+.Menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+a {
+    padding: 15px 15px;
+    text-decoration: none;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .Menu {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding: 0;
+    }
+}
