@@ -1,4 +1,13 @@
+.Cover {
+    margin: 0 5% 5% 0;
+}
+
 .Cover > img {
-    width: 80%;
-    margin: 10%;
+    max-width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .Cover {
+        align-self: center;
+    }
 }

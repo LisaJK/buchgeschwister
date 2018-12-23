@@ -1,0 +1,9 @@
+.MainInfo {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .MainInfo {
+        flex-direction: column;
+    }
+}

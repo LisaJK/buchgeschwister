@@ -1,0 +1,13 @@
+.AdditionalTable {
+    text-align: left;
+}
+
+.Stars {
+    width: 8%;
+}
+
+@media screen and (max-width:600px) {
+    td, th {
+        display: block;
+    }
+}

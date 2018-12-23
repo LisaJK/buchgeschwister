@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-a {
+.MenuItem {
     padding: 15px 15px;
     text-decoration: none;
     font-family: 'Parisienne', cursive;

@@ -5,25 +5,19 @@
     margin: 30px 30% 30px 30%;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 30px;
     border: solid #94bec1 2px;
-    text-align: center;
-}
-.Title {
-    margin: 0;
+    text-align: left;
 }
 
-.Age {
-    margin-top: 0;
-}
-
-p {
+.Content {
     font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
     .Book {
         margin: 10%;
+        text-align: center;
     }
 }
