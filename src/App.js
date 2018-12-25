@@ -18,7 +18,6 @@ class App extends Component {
                         <Route exact path="/" component={Home}/>
                         <Route path="/about" component={About}/>
                         <Route path="/impressum" component={Impressum}/>
-                        <a className='Impressum' href='/impressum'>Impressum</a>
                     </div>
                 </Router>
             </div>

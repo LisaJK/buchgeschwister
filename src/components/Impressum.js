@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Impressum.css';
 
 export default class Impressum extends Component {
     render() {

@@ -8,9 +8,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #4e8399;
     text-align: center;
+    background-color: #e6faff;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+h1 {
+    font-family: 'Parisienne', sans-serif;
+    font-weight: bold;
 }
