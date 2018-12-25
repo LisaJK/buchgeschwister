@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import halfStar from '../images/Star Half Empty.svg';
-import star from '../images/Star.svg';
 
 import './AdditionalInfo.css';
 
@@ -42,7 +40,7 @@ export default class AdditionalInfo extends Component {
                         <th>Preis:</th>
                         <td>{this.props.price} €</td>
                     </tr>
-                    <tr className='Stars Additional'>
+                    <tr className='Review Additional'>
                         <th>Bewertung:</th>
                         <td>
                             {this.renderStars()}
@@ -57,14 +55,24 @@ export default class AdditionalInfo extends Component {
             </div>
         );
     }
+
     renderStars() {
-        const stars = [...Array(Number(this.props.stars.substr(0, 1)))].map((x, i) =>
-            <img className='Stars' src={star} alt={this.props.alt} key={i}/>
+        const fullStars = Number(this.props.stars.substr(0, 1));
+
+        const stars = [...Array(fullStars)].map((x, i) =>
+            <i className='fa fa-star Stars' key={i}/>
         );
 
         if (this.props.stars.endsWith("+")) {
-            stars.push(<img className='HalfStar' src={halfStar} alt={this.props.alt} key={6}/>);
+            stars.push(<i className='fa fa-star-half-empty Stars' key={fullStars + 1}/>);
         }
+
+        if (stars.length < 5) {
+            stars.push([...Array(5 - stars.length)].map((x, i) =>
+                <i className='fa fa-star-o Stars' key={stars.length + i}/>
+            ));
+        }
+
         return stars;
     }
 }

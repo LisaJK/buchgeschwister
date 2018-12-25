@@ -7,8 +7,8 @@ th {
     width: 40%;
 }
 
-.HalfStar, .Stars{
-    width: 20px;
+.Stars{
+    color: gold;
 }
 
 @media screen and (max-width:600px) {
