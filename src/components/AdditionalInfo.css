@@ -1,9 +1,14 @@
 .AdditionalTable {
     text-align: left;
+    border-spacing: 0;
 }
 
-.Stars {
-    width: 8%;
+th {
+    width: 40%;
+}
+
+.HalfStar, .Stars{
+    width: 20px;
 }
 
 @media screen and (max-width:600px) {

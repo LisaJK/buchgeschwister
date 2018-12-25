@@ -13,7 +13,7 @@
       "plus": "Die Bücher sind sehr dick, man ist lange damit beschäftigt.",
       "minus": "Die Schrift ist klein.",
       "awards": "Nestle Smarties Book Prize for 9 to 11 years",
-      "stars": 5,
+      "stars": "5",
       "price": 8.99,
       "similarTo": "Der Weltenexpress"
     },
@@ -30,7 +30,7 @@
       "plus": "Es gibt sehr schöne Bilder und die Geschichte ist sehr schön erzählt.",
       "minus": "Die Schrift ist sehr groß und das Buch ist sehr dünn.",
       "awards": "",
-      "stars": 4,
+      "stars": "4",
       "price": 6.98,
       "similarTo": "Sternenschweif"
     },
@@ -47,7 +47,7 @@
       "plus": "Das Buch ist lustig und echt erzählt.",
       "minus": "Das Buch ist nur beim ersten Mal lustig.",
       "awards": "New York Times Bestsellerliste",
-      "stars": 4,
+      "stars": "4",
       "price": 14.99,
       "similarTo": "Tom Gates, Lotta Leben"
     },
@@ -64,7 +64,7 @@
       "plus": "Eine tolle Geschichte über Schwesternliebe. Es löst Gefühlswechsel aus.",
       "minus": "Das Buch ist spannend, gruselig und ein wenig traurig.",
       "awards": "",
-      "stars": 4,
+      "stars": "4",
       "price": 14.95,
       "similarTo": "Die Verwunschenen"
     },
@@ -81,7 +81,7 @@
       "plus": "Echt erzählt, coole Bilder, einfach super.",
       "minus": "Das Buch ist dünn. Wegen der Bilder ist das Buch noch dünner.",
       "awards": "Hans-Christian-Andersen-Medaille",
-      "stars": 4,
+      "stars": "4",
       "price": 14.00,
       "similarTo": "Holunderweg"
     },
@@ -98,7 +98,7 @@
       "plus": "Das Buch ist witzig erzählt. Eine tolle Freundschaftsgeschichte.",
       "minus": "Man liest es schnell durch.",
       "awards": "",
-      "stars": 4,
+      "stars": "4",
       "price": 12.00,
       "similarTo": "Möwenweg"
     },
@@ -115,7 +115,7 @@
       "plus": "Es ist ein Sammelband und es ist einfach schön, Dolly durch ihr Leben zu begleiten.",
       "minus": "Die Schrift ist sehr klein und ein bisschen altmodisch ist es schon, aber vielleicht ist das gerade das Schöne...",
       "awards": "",
-      "stars": 4,
+      "stars": "4",
       "price": 12.00,
       "similarTo": "Hanni und Nanni"
     },
@@ -132,7 +132,7 @@
       "plus": "Schön erzählt, altmodisch und lehrreich, einfach wow.",
       "minus": "Die Kapitel sind ein bisschen lang.",
       "awards": "",
-      "stars": 5,
+      "stars": "5",
       "price": 10.95,
       "similarTo": "Matilda, Räuber Grabsch"
     },
@@ -149,7 +149,7 @@
       "plus": "spannend, fantasiereich erzählt, ein echter Bestselle.",
       "minus": "Ab dem dritten Band wird es ein bisschen langweilig.",
       "awards": "",
-      "stars": 4,
+      "stars": "4+",
       "price": 9.95,
       "similarTo": "Hummelreiter"
     }

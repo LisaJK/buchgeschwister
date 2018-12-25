@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import star from '../images/start_53876-25533.jpg'
+import halfStar from '../images/Star Half Empty.svg';
+import star from '../images/Star.svg';
 
 import './AdditionalInfo.css';
 
@@ -44,9 +45,7 @@ export default class AdditionalInfo extends Component {
                     <tr className='Stars Additional'>
                         <th>Bewertung:</th>
                         <td>
-                            {[...Array(this.props.stars)].map((x, i) =>
-                                <img className='Stars' src={star} alt={this.props.alt} key={i}/>
-                            )}
+                            {this.renderStars()}
                         </td>
                     </tr>
                     <tr className='SimilarTo Additional'>
@@ -57,5 +56,15 @@ export default class AdditionalInfo extends Component {
                 </table>
             </div>
         );
+    }
+    renderStars() {
+        const stars = [...Array(Number(this.props.stars.substr(0, 1)))].map((x, i) =>
+            <img className='Stars' src={star} alt={this.props.alt} key={i}/>
+        );
+
+        if (this.props.stars.endsWith("+")) {
+            stars.push(<img className='HalfStar' src={halfStar} alt={this.props.alt} key={6}/>);
+        }
+        return stars;
     }
 }
