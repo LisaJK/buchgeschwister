@@ -25,11 +25,11 @@ export default class AdditionalInfo extends Component {
                         <td>{this.props.illustrated}</td>
                     </tr>
                     <tr className='Plus Additional'>
-                        <th>Vorteile:</th>
+                        <th>Das ist gut:</th>
                         <td>{this.props.plus}</td>
                     </tr>
                     <tr className='Minus Additional'>
-                        <th>Nachteile:</th>
+                        <th>Das ist nicht so gut:</th>
                         <td>{this.props.minus}</td>
                     </tr>
                     <tr className='Awards Additional'>
