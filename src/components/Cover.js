@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Cover.css';
 
 const Cover = (props) => {
@@ -9,6 +10,10 @@ const Cover = (props) => {
 
 const getImage = (title) => {
     return require('../images/' + title + '.jpg');
+};
+
+Cover.propTypes = {
+    title: PropTypes.string.isRequired,
 };
 
 export default Cover;
