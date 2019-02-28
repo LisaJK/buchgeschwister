@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Cover.css';
 
-export default class Cover extends Component {
-    render() {
-        return <div className='Cover'>
-            <img src={this.getImage()} alt={this.props.title}/>
-        </div>;
-    }
-    getImage() {
-        return require('../images/' + this.props.title + '.jpg');
-    }
-}
+const Cover = (props) => {
+    return <div className='Cover'>
+        <img src={getImage(props.title)} alt={props.title}/>
+    </div>;
+};
+
+const getImage = (title) => {
+    return require('../images/' + title + '.jpg');
+};
+
+export default Cover;
