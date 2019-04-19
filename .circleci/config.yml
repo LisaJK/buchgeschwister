@@ -21,5 +21,5 @@ jobs:
     - run: npm test
     - run: sudo pip install awscli --upgrade
     - run: aws --version
-#    - run: aws s3 ls
+    - run: aws s3 ls
 #    - run: npm run deploy
