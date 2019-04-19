@@ -17,9 +17,8 @@ jobs:
         paths:
         - node_modules
         key: v1-dependencies-{{ checksum "package.json" }}
-        # run tests!
     - run: npm test
     - run: sudo pip install awscli --upgrade
     - run: aws --version
     - run: aws s3 ls
-#    - run: npm run deploy
+    - run: npm run build && aws s3 sync build/ s3://www.buchgeschwister.de
