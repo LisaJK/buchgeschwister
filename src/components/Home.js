@@ -6,7 +6,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div className="Home">
-            <h1>Herzlich Willkommen!</h1>
+            <h1>Herzlich Willkommen!!</h1>
             <p>Weißt du nicht, was du als nächstes lesen sollst?
                 Suchen Sie ein Geschenk für Ihr Kind oder Enkelkind?</p>
             <p>Wir lieben lesen und hier sind unsere Empfehlungen:</p>
