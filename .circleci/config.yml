@@ -1,11 +1,12 @@
 version: 2
 jobs:
   build:
-    docker: circleci/node:7.10
+    docker:
+    - image: circleci/node:7.10
     working_directory: ~/repo
     steps:
     - checkout
-    # Download and cache dependencies
+    # download and cache dependencies
     - restore_cache:
         keys:
         - v1-dependencies-{{ checksum "package.json" }}
@@ -25,4 +26,3 @@ jobs:
 #        - run: aws --version
 #        - run: aws s3 ls
 #        - run: npm run deploy
-
